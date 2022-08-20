@@ -11,13 +11,17 @@ Change these parameters to math your database
 `DB_USERNAME`
 `DB_PASSWORD`
   
+#### #Queues
+Change this as below:
+`QUEUE_CONNECTION=database`
+
 #### #Sanctum
 Change these as below:
 `SESSION_DRIVER=cookie`
 `SESSION_DOMAIN=localhost` 👈 Instead of "localhost" set your top level domain your application uses (it can be "localhost" if you are working locally)
 `SANCTUM_STATEFUL_DOMAINS=localhost,localhost:5173` 👈 Add all the subdomains (if any), that your frontend uses (used by VUE project in our case).
 
-##### Mail
+##### #Mail
 Add these settings to work with email
 `MAIL_MAILER=smtp`
 `MAIL_HOST=in-v3.mailjet.com`
