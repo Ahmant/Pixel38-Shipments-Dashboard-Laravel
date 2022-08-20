@@ -38,6 +38,13 @@ composer update
 
 ```
 
+### Application Key
+
+```
+
+php artisan key:generate
+
+```
 ### Migrations
 
 ```
